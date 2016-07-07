@@ -9,4 +9,8 @@ c = a * b
 
 print("a * b = %f, 数字c的类型是：%s"%(c, type(c)))
 
-
+# 数学函数库math
+import math
+pi = math.pi
+dd = math.sqrt(4)
+print(pi, dd)
