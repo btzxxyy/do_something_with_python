@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding=utf-8
-
-import re
-
-p = re.compile(r'^[a-zA-Z0-9-_]+@[a-zA-Z0-9-_]+\.(?:com|org|edu)$')
-a = re.match(p, 'btzxxyy@163.com')
-b = re.match(p, '12jr5ij@jpegji.com111')
-
+# 使用正则表达式验证email的合法性
 
 
 def judge_email(s):
