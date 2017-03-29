@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
+import hashlib
+import pdb
 
 from mytools import createstr
 import random
@@ -21,6 +23,11 @@ def create_user_pass(n=8):
     return ''.join(user_pass)
 
 
+def encryption(s):
+    hash_pass = hashlib.md5(s)
+    return hash_pass.hexdigest()
+
+
 if __name__ == '__main__':
     with open('userdata.txt', 'w') as f:
         count = 0
@@ -28,3 +35,12 @@ if __name__ == '__main__':
             f.write('username: ' + create_user_name() + '\tpassword: ' +
                     create_user_pass() + '\n')
             count += 1
+
+        f.write('------------------增加密码加密功能--------------------------\n')
+        count2 = 0
+        while(count2 < 10):
+            line = create_user_pass().encode('utf-8')
+            hash_data = encryption(line)
+            f.write('username: ' + create_user_name() + '\tpassword: ' +
+                    hash_data + '\n')
+            count2 += 1
