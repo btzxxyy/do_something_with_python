@@ -1,4 +1,3 @@
-username: oeioyh	password: aghg7Bp9
 username: xjq6xy	password: JDlkMTZK
 username: q7m8a7	password: dGNeKFaK
 username: ly4h2r	password: HBMoiyyV
@@ -19,3 +18,11 @@ username: z78ew5	password: 0af895881bd55a6c62fd45871241b17c
 username: i_xx_6	password: 2c9936c44a97728db3d577961b5e6ba6
 username: snfimx	password: 92e153c933c0508868b8a3a3b9568ad8
 username: qoffsb	password: a543b77299ba6f6c909fe4455a2fd23c
+------------------注册功能测试--------------------------
+username: hhh123	password: 123456
+username: hhhhhh	password: 213456
+username: root123	password: root1234
+username: fadedd	password: 123456
+username: root123	password: aabb2100033f0352fe7458e412495148
+username: tianen	password: 70b5459fcd880fa91628c491adcc47fa
+username: root456	password: aabb2100033f0352fe7458e412495148
